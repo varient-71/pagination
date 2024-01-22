@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Pagination</title>
 </head>
 <body>
     <nav class="navbar">
         <a href="" class="logo">Pagination</a>
-        <a href="">Users</a>
-        <a href="">Add +</a>
+        <a href="http://localhost:3000" id="home">Users</a>
+        <a href="http://localhost:3000/add" id="add">Add +</a>
     </nav>
     <main>
         <div class="search">
-            <input type="text" class="searchBox"><input type="submit" class="searchBtn" name="submit">
+            <input type="text" class="searchBox">
+            <button type="submit" class="Btn" name="submit">Search</button>
         </div>
         <div class="data">
             <div class="tableHead">
@@ -30,11 +31,12 @@
             </ul>  
         </div>
         <div class="pagination">
-            <a href="#" id="prev" >Prev</a><a href="#" class="page">1</a><a href="#" id="next">Next</a>
+            <a href="#" id="prev" >Prev</a><a href="#" class="page">1</a><a href="#" class="pagae">2</a><a href="#" class="pagae">2</a><a href="4" class="pagae">2</a><a href="#" id="next">Next</a>
         </div>
     </main>
     <footer>
         <p>NextGeeks : Syed Saqlain</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
